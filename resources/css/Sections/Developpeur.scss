@@ -1,0 +1,31 @@
+#Developpeur {
+    height: 100vh;
+    background: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Dev.svg");
+    h1 {
+                font-size: $font-size-base * 1.5;
+            @include media-breakpoint-up(sm) {
+                font-size: $font-size-base * 2.5;
+            }
+            @include media-breakpoint-up(md) {
+                font-size: $font-size-base * 3.5;
+            }
+            @include media-breakpoint-up(lg) {
+                font-size: $font-size-base * 4.5;
+            }
+    }
+    h2 {
+                font-size: $font-size-base * 3;
+            @include media-breakpoint-up(sm) {
+                font-size: $font-size-base * 4.5;
+            }
+            @include media-breakpoint-up(md) {
+                font-size: $font-size-base * 6;
+            }
+            @include media-breakpoint-up(lg) {
+                font-size: $font-size-base * 7.5;
+            }
+        text-transform: uppercase;
+    }
+}
