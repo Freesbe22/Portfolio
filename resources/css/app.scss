@@ -67,10 +67,9 @@ $theme-colors: map-merge($theme-colors, (
 }
 
 body{
-    background-color: var(--bs-primary);
 }
 section{
-    min-height: 50vh;
+    background-color: var(--bs-primary);
 }
 
 @import "./Sections/Developpeur.scss";
