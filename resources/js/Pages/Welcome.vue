@@ -4,6 +4,7 @@ import Developpeur from '@/Components/Welcome/Sections/Developpeur.vue';
 import Reseaux from '@/Components/Welcome/Sections/Reseaux.vue';
 import Apropos from '@/Components/Welcome/Sections/Apropos.vue';
 import Parcours from '@/Components/Welcome/Sections/Parcours.vue';
+import Technologies from '@/Components/Welcome/Sections/Technologies.vue';
 import '../../css/app.scss';
 
 defineProps({
@@ -16,11 +17,12 @@ defineProps({
     <Head title="MIDEY Baptiste" />
 
     <div class="vw-100 vh-100">
-        <Developpeur/>
-        <Reseaux/>
-        <Apropos/>
-        <Parcours/>
-    </div>
+        <Developpeur />
+        <Reseaux />
+        <Apropos />
+        <Parcours />
+        <Technologies/>
+        </div>
 </template>
 
 <style>

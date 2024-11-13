@@ -5,10 +5,10 @@ import ParcourBloc from '@/Components/Welcome/Sections/ParcourBloc.vue';
 
 <template>
    <section id="Parcours" class="text-light container-fluid">
-      <div class="row">
+      <div class="row mx-5">
          <h1 class="text-light-emphasis mx-5 mt-5">Mon Parcours</h1>
       </div>
-      <div class="row">
+      <div class="row mx-5">
          <div class="col-md-3 d-none d-md-block">
 
          </div>
