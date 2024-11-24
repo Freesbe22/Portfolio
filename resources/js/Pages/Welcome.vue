@@ -21,8 +21,8 @@ defineProps({
         <Reseaux />
         <Apropos />
         <Parcours />
-        <Technologies/>
-        </div>
+        <Technologies />
+    </div>
 </template>
 
 <style>

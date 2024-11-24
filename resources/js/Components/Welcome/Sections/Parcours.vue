@@ -8,7 +8,7 @@ import ParcourBloc from '@/Components/Welcome/Sections/ParcourBloc.vue';
       <div class="row mx-5">
          <h1 class="text-light-emphasis mx-5 mt-5">Mon Parcours</h1>
       </div>
-      <div class="row mx-5">
+      <div class="row mx-5 pb-2">
          <div class="col-md-3 d-none d-md-block">
 
          </div>

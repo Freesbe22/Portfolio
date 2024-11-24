@@ -6,26 +6,30 @@
 @import "../../node_modules/bootstrap/scss/mixins";
 
 // scss-docs-start theme-color-variables
-$primary:       #020912;
-$secondary:     $gray-400;
-$success:       $green;
-$info:          $cyan;
-$warning:       $yellow;
-$danger:        $red;
-$light:         $gray-100;
-$dark:          $gray-900;
+$primary: #020912;
+$secondary: #42161E;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
 
-$theme-colors: map-merge($theme-colors, (
-      "primary": $primary,
-      "secondary": $secondary,
-      "success":$success,
-      "info":$info,
-      "warning":$warning,
-      "danger":$danger,
-      "light":$light,
-      "dark":$dark
-    ));
-$primary-bg-subtle:       tint-color($primary, 80%);
+$theme-colors: map-merge(
+    $theme-colors,
+    (
+        "primary": $primary,
+        "secondary": $secondary,
+        "success": $success,
+        "info": $info,
+        "warning": $warning,
+        "danger": $danger,
+        "light": $light,
+        "dark": $dark
+    )
+);
+$primary-bg-subtle: shift-color($primary, 60%);
+$secondary-bg-subtle: shift-color($secondary, 30);
 
 //     // Layout & components
 // @import "../../node_modules/bootstrap/scss/maps";
@@ -73,8 +77,13 @@ $primary-bg-subtle:       tint-color($primary, 80%);
 [x-cloak] {
     display: none;
 }
-section{
-    background-color: var(--bs-primary);
+section {
+    &:nth-child(4n+1),&:nth-child(4n+2) {
+        background-color: var(--bs-secondary);
+    }
+    &:nth-child(4n+3),&:nth-child(4n+4) {
+        background-color: var(--bs-primary);
+    }
 }
 
 @import "./Sections/Developpeur.scss";

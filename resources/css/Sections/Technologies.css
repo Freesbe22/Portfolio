@@ -2,17 +2,11 @@
   min-height: 25vh;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border: none;
-  background-color: var(--bs-primary-bg-subtle);
+#Technologies .list-group {
+  --bs-list-group-border-color: transparent;
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
-}
-
-.card .text-muted i {
-  margin: 0 10px;
+#Technologies .list-group-item {
+  border-radius: inherit;
+  background-color: var(--bs-secondary-bg-subtle);
 }
