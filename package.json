@@ -27,7 +27,6 @@
         "@fortawesome/vue-fontawesome": "^3.0.3",
         "@popperjs/core": "^2.11.8",
         "bootstrap": "^5.3.3",
-        "embla-carousel-autoplay": "^8.0.0-rc14",
-        "embla-carousel-vue": "^8.0.0-rc14"
+        "vue3-carousel": "^0.8.1"
     }
 }

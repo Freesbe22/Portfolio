@@ -28,8 +28,8 @@ $theme-colors: map-merge(
         "dark": $dark
     )
 );
-$primary-bg-subtle: shift-color($primary, 60%);
-$secondary-bg-subtle: shift-color($secondary, 30);
+$primary-bg-subtle: shade-color($primary, 60%);
+$secondary-bg-subtle: shade-color($secondary, 30%);
 
 //     // Layout & components
 // @import "../../node_modules/bootstrap/scss/maps";
@@ -90,3 +90,4 @@ section {
 @import "./Sections/Reseaux.scss";
 @import "./Sections/Apropos.scss";
 @import "./Sections/Technologies.scss";
+@import "./Sections/Loisirs.scss";

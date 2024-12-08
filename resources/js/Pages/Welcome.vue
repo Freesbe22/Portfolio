@@ -5,6 +5,7 @@ import Reseaux from '@/Components/Welcome/Sections/Reseaux.vue';
 import Apropos from '@/Components/Welcome/Sections/Apropos.vue';
 import Parcours from '@/Components/Welcome/Sections/Parcours.vue';
 import Technologies from '@/Components/Welcome/Sections/Technologies.vue';
+import Loisirs from '@/Components/Welcome/Sections/Loisirs.vue';
 import '../../css/app.scss';
 
 defineProps({
@@ -22,6 +23,7 @@ defineProps({
         <Apropos />
         <Parcours />
         <Technologies />
+        <Loisirs />
     </div>
 </template>
 
