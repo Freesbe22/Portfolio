@@ -4,7 +4,7 @@ import LoisirBloc from '@/Components/Welcome/Sections/LoisirBloc.vue';
 
 
 // If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
-import 'vue3-carousel/dist/carousel.css'
+//import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Navigation } from 'vue3-carousel'
 
 const config = {
@@ -41,7 +41,7 @@ const config = {
         <div class="row mx-5 p-3 mh-100">
             <Carousel v-bind="config">
                 <Slide>
-                    <LoisirBloc imgLink="../../../../../../resources/images/Loisirs/switchwire.webp"
+                    <LoisirBloc imgLink="switchwire.webp"
                         imgAlt="Switchwire">
                         <template #Title>
                             Impression 3D
@@ -56,7 +56,7 @@ const config = {
                     </LoisirBloc>
                 </Slide>
                 <Slide>
-                    <LoisirBloc imgLink="../../../../../../resources/images/Loisirs/homeserver.webp"
+                    <LoisirBloc imgLink="homeserver.webp"
                         imgAlt="Mon Home Server">
                         <template #Title>
                             Home Server
@@ -72,7 +72,7 @@ const config = {
                     </LoisirBloc>
                 </Slide>
                 <Slide>
-                    <LoisirBloc imgLink="../../../../../../resources/images/Loisirs/moto.jpg" imgAlt="Ma moto">
+                    <LoisirBloc imgLink="moto.jpg" imgAlt="Ma moto">
                         <template #Title>
                             Moto
                         </template>
@@ -87,17 +87,17 @@ const config = {
                     </LoisirBloc>
                 </Slide>
                 <Slide>
-                    <LoisirBloc imgLink="../../../../../../resources/images/Loisirs/airsoft.jpg" imgAlt="Mon loadout">
+                    <LoisirBloc imgLink="airsoft.jpg" imgAlt="Mon loadout">
                         <template #Title>
                             Airsoft
                         </template>
                         <template #Content>
-                            Depuis quelques années je pratique l'airsoft en association. J'ai pu y faire mes debuts et évoluer 
-                            jusqu'à mon equipement actuel. Et tout cela en aidant les autres pratiquant de l'association, que ce 
+                            Depuis quelques années je pratique l'airsoft en association. J'ai pu y faire mes debuts et évoluer
+                            jusqu'à mon equipement actuel. Et tout cela en aidant les autres pratiquant de l'association, que ce
                             soit pour leurs materiels ou bien sur la façon de tirer parti au mieux de leurs equipement actuel.
                         </template>
                         <template #Quantite>
-                            5800 km
+                            800 Heures
                         </template>
                     </LoisirBloc>
                 </Slide>
