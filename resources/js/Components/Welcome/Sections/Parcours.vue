@@ -66,6 +66,17 @@ import ParcourBloc from '@/Components/Welcome/Sections/ParcourBloc.vue';
                      (2022-2024)
                   </template>
                </ParcourBloc>
+               <ParcourBloc>
+                  <template #Title>
+                     Aidant paysager
+                  </template>
+                  <template #Content>
+                     chez Hauts Doubs Paysage
+                  </template>
+                  <template #Date>
+                     (2024)
+                  </template>
+               </ParcourBloc>
             </ul>
          </div>
       </div>

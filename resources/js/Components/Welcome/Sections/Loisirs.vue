@@ -50,6 +50,9 @@ const config = {
                             D’une Ender 3 acheté en 2020 à une Voron Switchwire construite en 2024, mon imprimante a pu
                             créer de nombreux projets et outils/décorations aux seins de mes differents loisirs
                         </template>
+                        <template #Quantite>
+                            2600 Heures
+                        </template>
                     </LoisirBloc>
                 </Slide>
                 <Slide>
@@ -63,6 +66,9 @@ const config = {
                             pour différentes activités tel-que les jeux vidéo, le monitoring du réseau, ou bien pour
                             mettre en service des projets web ou applicatif
                         </template>
+                        <template #Quantite>
+                            1000 Heures
+                        </template>
                     </LoisirBloc>
                 </Slide>
                 <Slide>
@@ -74,6 +80,24 @@ const config = {
                             Depuis tout petit la moto me fascine, des courses de moto cross au championnat mondiaux, ou
                             encore le motoGP. C’est en 2022 que j’ai décidé de passer le permis et d’acheter une Suzuki
                             Bandit de 1995
+                        </template>
+                        <template #Quantite>
+                            5800 km
+                        </template>
+                    </LoisirBloc>
+                </Slide>
+                <Slide>
+                    <LoisirBloc imgLink="../../../../../../resources/images/Loisirs/airsoft.jpg" imgAlt="Mon loadout">
+                        <template #Title>
+                            Airsoft
+                        </template>
+                        <template #Content>
+                            Depuis quelques années je pratique l'airsoft en association. J'ai pu y faire mes debuts et évoluer 
+                            jusqu'à mon equipement actuel. Et tout cela en aidant les autres pratiquant de l'association, que ce 
+                            soit pour leurs materiels ou bien sur la façon de tirer parti au mieux de leurs equipement actuel.
+                        </template>
+                        <template #Quantite>
+                            5800 km
                         </template>
                     </LoisirBloc>
                 </Slide>

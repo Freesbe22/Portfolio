@@ -16,7 +16,7 @@ function getImageUrl(name) {
                     <h4 class="card-title mt-0 ">
                         <slot name="Title"></slot>
                     </h4>
-                    <small><i class="far fa-clock"></i> 600 H</small>
+                    <small><i class="far fa-clock"></i> <slot name="Quantite"></slot></small>
                 </div>
                 <div class="card-footer">
                     <div class="media">
