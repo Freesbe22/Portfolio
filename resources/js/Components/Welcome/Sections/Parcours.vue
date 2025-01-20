@@ -4,83 +4,94 @@ import ParcourBloc from '@/Components/Welcome/Sections/ParcourBloc.vue';
 </script>
 
 <template>
-   <section id="Parcours" class="text-light container-fluid">
-      <div class="row mx-5">
-         <h1 class="text-light-emphasis mx-5 mt-5">Mon Parcours</h1>
-      </div>
-      <div class="row mx-5 pb-2">
-         <div class="col-md-3 d-none d-md-block">
+    <section id="Parcours" class="text-light container-fluid">
+        <div class="row mx-5">
+            <h1 class="text-light-emphasis mx-5 mt-5">Mon Parcours</h1>
+        </div>
+        <div class="row mx-5 pb-2">
+            <div class="col-md-3 d-none d-md-block">
 
-         </div>
-         <div class="col-12 col-md-9">
-            <ul class="timeline-list">
-               <ParcourBloc>
-                  <template #Title>
-                     Brevet fédéral
-                  </template>
-                  <template #Content>
-                     Equivalent : BTS Système Informatique aux Organisations
-                  </template>
-                  <template #Date>
-                     (2018-2020)
-                  </template>
-               </ParcourBloc>
-               <ParcourBloc>
-                  <template #Title>
-                     Stage et CDD
-                  </template>
-                  <template #Content>
-                     Développeur applicatif chez Avea Concept
-                  </template>
-                  <template #Date>
-                     (2019-2020)
-                  </template>
-               </ParcourBloc>
-               <ParcourBloc>
-                  <template #Title>
-                     Licence Administrateur de Sytème d’Information
-                  </template>
-                  <template #Date>
-                     (2020-2022)
-                  </template>
-               </ParcourBloc>
-               <ParcourBloc>
-                  <template #Title>
-                     Alternance
-                  </template>
-                  <template #Content>
-                     Développeur .NET chez DLM Soft
-                  </template>
-                  <template #Date>
-                     (2020-2022)
-                  </template>
-               </ParcourBloc>
-               <ParcourBloc>
-                  <template #Title>
-                     CDD puis CDI
-                  </template>
-                  <template #Content>
-                     Développeur .NET chez DLM Soft
-                  </template>
-                  <template #Date>
-                     (2022-2024)
-                  </template>
-               </ParcourBloc>
-               <ParcourBloc>
-                  <template #Title>
-                     Aidant paysager
-                  </template>
-                  <template #Content>
-                     chez Hauts Doubs Paysage
-                  </template>
-                  <template #Date>
-                     (2024)
-                  </template>
-               </ParcourBloc>
-            </ul>
-         </div>
-      </div>
-   </section>
+            </div>
+            <div class="col-12 col-md-9">
+                <ul class="timeline-list">
+                    <ParcourBloc>
+                        <template #Title>
+                            Brevet fédéral
+                        </template>
+                        <template #Content>
+                            Equivalent : BTS Système Informatique aux Organisations
+                        </template>
+                        <template #Date>
+                            (2018-2020)
+                        </template>
+                    </ParcourBloc>
+                    <ParcourBloc>
+                        <template #Title>
+                            Stage et CDD
+                        </template>
+                        <template #Content>
+                            Développeur applicatif chez Avea Concept
+                        </template>
+                        <template #Date>
+                            (2019-2020)
+                        </template>
+                    </ParcourBloc>
+                    <ParcourBloc>
+                        <template #Title>
+                            Licence Administrateur de Sytème d’Information
+                        </template>
+                        <template #Date>
+                            (2020-2022)
+                        </template>
+                    </ParcourBloc>
+                    <ParcourBloc>
+                        <template #Title>
+                            Alternance
+                        </template>
+                        <template #Content>
+                            Développeur .NET chez DLM Soft
+                        </template>
+                        <template #Date>
+                            (2020-2022)
+                        </template>
+                    </ParcourBloc>
+                    <ParcourBloc>
+                        <template #Title>
+                            CDD puis CDI
+                        </template>
+                        <template #Content>
+                            Développeur .NET chez DLM Soft
+                        </template>
+                        <template #Date>
+                            (2022-2024)
+                        </template>
+                    </ParcourBloc>
+                    <ParcourBloc>
+                        <template #Title>
+                            Aidant paysager
+                        </template>
+                        <template #Content>
+                            chez Hauts Doubs Paysage
+                        </template>
+                        <template #Date>
+                            (2024)
+                        </template>
+                    </ParcourBloc>
+                    <ParcourBloc>
+                        <template #Title>
+                            Employé libre-service de rayon
+                        </template>
+                        <template #Content>
+                            Intermarché Morteau
+                        </template>
+                        <template #Date>
+                            (2025)
+                        </template>
+                    </ParcourBloc>
+                </ul>
+            </div>
+        </div>
+    </section>
 </template>
 
 <style>
